@@ -77,7 +77,7 @@
                                                 <manifest>
                                                         <addClasspath>true</addClasspath>
                                                         <classpathPrefix>lib/</classpathPrefix>
-                                                        <mainClass>com.info.contato.ContatoApplication</mainClass>
+                                                        <mainClass>com.info.habito.HabitoApplication</mainClass>
                                                         <useUniqueVersions>false</useUniqueVersions>
                                                 </manifest>
                                         </archive>
