@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.info.habito.repository;
-
-/**
- *
- * @author info2
- */
-public class HabitoRepository {
-    
+import com.info.habito.model.Habito;
+import com.info.habito.model.HabitoDiario;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface  HabitoRepository extends JpaRepository<Habito, Integer> {
+public interface HabitoDiarioRepository extends JpaRepository<HabitoDiario ,Integer >
 }
