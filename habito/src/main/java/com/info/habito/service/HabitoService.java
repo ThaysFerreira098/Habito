@@ -24,8 +24,5 @@ public class HabitoService {
  return habitoRepository.save(habito);
  }
 
- public void concluir(int id) {
  
-    
- }
 }
