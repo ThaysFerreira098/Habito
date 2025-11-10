@@ -11,13 +11,8 @@ public class HabitoService {
     @Autowired
  HabitoRepository habitoRepository;
 
- public Habito localizar(int id){
- Optional<Habito> habitoBusca = habitoRepository.findById(id);
- if (habitoBusca.isPresent()) {
- return habitoBusca.get();
- } else {
- return null;
- }
+public List<Contato> pesquisar() {
+ return contatoRepository.findAll();
  }
 
  public Habito salvar(Habito habito) {
