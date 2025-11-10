@@ -12,7 +12,7 @@ public class HabitoService {
  HabitoRepository habitoRepository;
 
 public List<Contato> pesquisar() {
- return contatoRepository.findAll();
+ return habitoRepository.findAll();
  }
 
  public Habito salvar(Habito habito) {
